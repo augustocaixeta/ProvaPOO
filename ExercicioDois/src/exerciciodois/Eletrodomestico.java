@@ -32,6 +32,7 @@ public class Eletrodomestico {
         }
 
         this.consumo = consumo;
+        // this.consumo = (consumo == 220) ? 220 : 110;
     }
 
     public String getDimensao() {
