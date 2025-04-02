@@ -23,6 +23,15 @@ public class Televisao extends Eletrodomestico {
         } else {
             this.tipo = "4K";
         }
+
+        /*
+
+        import java.util.Set;
+        
+        Set<String> tiposValidos = Set.of("Full", "HD", "UHD", "LED");
+        this.tipo = (tipo != null && tiposValidos.contains(tipo)) ? tipo : "4K";
+        
+        */
     }
 
     public String getFuncoes() {
